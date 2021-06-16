@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<HTML lang="en">
+    <body id="#about">
+        <link rel="stylesheet" href="stylesheet.css">
+        <title>Kiwii About Page</title>
+        <center>
+        <div class="title-container">
+            <div class="topnav" id="navbar">
+                <a class="active" href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="fighting.html">Fighting Games</a>
+            </div>
+
+            <img src="kiwibetter.png" width="100px" height="100px"></img>
+            <h1>Fighting Game Ideas</h1>
+            </div>
+            <div class="banner-container">
+                 <img class="banner" src="fightinggames.png" width="1480px"></img>
+            </div>
+            <ul class="subtitle">
+                <h2>don't say invented without the n</h2>
+            </ul>
+        </center>
+        <script>
+            window.onscroll = function() {myFunction()};
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        </script>
+    </body>
+</HTML> 

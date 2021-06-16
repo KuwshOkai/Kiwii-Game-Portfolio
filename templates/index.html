@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<HTML lang="en">
+    <body>
+        <center>
+            <link rel="stylesheet" href="stylesheet.css">
+            <title>Kiwii's Game Portfolio</title>
+            <div class="title-container">
+                <div class="topnav" id="navbar">
+                    <a class="active" href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="fighting.html">Fighting Games</a>
+                </div>
+                <img src="kiwii.png"></img>
+                <h1>Kiwii Game Portfolio</h1>
+            </div>
+        </center>
+        <div>
+            <h2>Genres I enjoy</h2>
+            <ul class="subtitle">
+                <li><a href="fighting.html">Fighting Games</a></li>
+                <img src="streetfyter.jpg" style="width: 500px; height: 250px"></img>
+                <div class="title-container">
+                    <p>I have always been a fan of fighting games because they have a large replay value due to them having large rosters (which can be expanded upon).
+                        They work well as both a casual and competitive game as the controls can be mastered through combos or players can simply noodle around on their controllers or button mash.
+                        More complexity can be found through learning in game frame data, character hitboxes, etc.
+                        I have always wanted to make my own fighting game because I am fascinated by the mechanics and would like to make my own unique fighting game to add to the genre.</p>
+                </div>
+            </br>
+                <li href="adventure.html">Adventure Games</li>
+                <img src="botw.jpg" style="width: 500px; height: 250px"></img>
+                <p></p>
+                <li>Stealth Games</li>
+                <li>Puzzle Games</li>
+                <li>RPGs</li>
+            </ul>
+        </div>
+        <script>
+            window.onscroll = function() {myFunction()};
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        </script>
+    </body>
+</HTML>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<HTML lang="en">
+    <body id="#about">
+        <link rel="stylesheet" href="stylesheet.css">
+        <title>Kiwii About Page</title>
+        <center>
+        <div class="title-container">
+            <div class="topnav" id="navbar">
+                <a class="active" href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="fighting.html">Fighting Games</a>
+            </div>
+
+            <img src="kiwibetter.png" width="100px" height="100px"></img>
+            <h1>About & Contact</h1>
+            </div>
+        </center>
+        <h2>About Me</h2>   
+        <script>
+            window.onscroll = function() {myFunction()};
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        </script>
+    </body>
+</HTML> 
