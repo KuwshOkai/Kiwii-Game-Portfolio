@@ -17,7 +17,7 @@ ul.subtitle{
     font-size:32px;
 }
 p{
-    font-size:20px;
+    font-size:15px;
     color: #214F4B;
 }
 strong{
@@ -63,6 +63,14 @@ strong{
 div.title-container{
     border: 10px solid #214F4B;
     border-radius: 20px;
+    padding: 5px;
+    background-color: #2AFC98;
+    margin:0px
+}
+div.subtitle-container{
+    border: 10px solid #214F4B;
+    border-radius: 20px;
+    width:fit-content;
     padding: 5px;
     background-color: #2AFC98;
     margin:0px
