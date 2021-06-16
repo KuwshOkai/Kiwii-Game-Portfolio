@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<HTML lang="en">
+    <body id="#about">
+        <link rel="stylesheet" href="stylesheet.css">
+        <title>Kiwii About Page</title>
+        <center>
+        <div class="title-container">
+            <div class="topnav" id="navbar">
+                <a class="active" href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="fighting.html">Fighting Games</a>
+                <a href="adventure.html">Adventure Games</a>
+                <a href="stealth.html">Stealth Games</a>
+                <a href="puzzle.html">Puzzle Games</a>
+                <a href="rpgs.html">RPGs</a>
+            </div>
+
+            <img src="kiwibetter.png" width="100px" height="100px"></img>
+            <h1>Puzzle Game Ideas</h1>
+            </div>
+        </center>
+        <script>
+            window.onscroll = function() {myFunction()};
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        </script>
+    </body>
