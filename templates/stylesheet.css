@@ -95,6 +95,7 @@ img.banner{
     padding-left: 3px;
     padding-right: 9px;
     padding-bottom: 10px;
+    object-fit: cover;
 }
 @font-face{
     font-family: "HeaderFont";
