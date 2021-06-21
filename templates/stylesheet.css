@@ -11,6 +11,11 @@ h2{
     color: #373F47;
     font-size: 40px;
 }
+h3{
+    font-family: 'HeaderFont';
+    color:#373F47;
+    font-size: 30px;
+}
 ul.subtitle{
     font-family: 'Header2Font';
     color: #214F42;
