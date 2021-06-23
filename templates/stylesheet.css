@@ -22,7 +22,8 @@ ul.subtitle{
     font-size:32px;
 }
 p{
-    font-size:15.5px;
+    font-family: "Header2Font";
+    font-size:17px;
     color: #214F4B;
     line-height: 10px;
 }
@@ -97,6 +98,7 @@ img.banner{
     padding-bottom: 10px;
     object-fit: cover;
 }
+
 @font-face{
     font-family: "HeaderFont";
     src: url(fonts/staatliches-regular-webfont.woff);
